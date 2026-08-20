@@ -240,16 +240,7 @@ Run `generated_null_values.ipynb` first if you want to regenerate `Food_Delivery
 2. Open `InnovativeAssignment.twb` (or any `Dashboard*.twb` file).
 3. If prompted, repoint the data source to `Food_Delivery_Time_Location_Added_Only.csv` in your local copy of the repo.
 
-## 14. Future Improvements
-
-- Re-run and record actual accuracy/RMSE metrics from the KNIME Scorer nodes for each model, and compare them side by side.
-- Fix/re-configure the `k_Means` node's column selection (currently references leftover template columns).
-- Add engineered features (e.g., order-time-of-day buckets, distance × traffic interaction terms) to address the weak linear correlations found in EDA.
-- Formally combine the label-encoding logic that was drafted (but commented out) in the notebook into the modeling pipeline.
-- Consolidate the Tableau workbook snapshots (`Dashboard1–3.twb`, `Sheet1–6.twb`) into a single published `.twbx` packaged workbook with the data embedded, for easier sharing.
-- Add a `requirements.txt` / environment file for reproducibility.
-
-## 15. Author
+## 14. Author
 
 - **Princy Pandya** (23BCE207)
 - **Yamini Pambhar** (23BCE204)
